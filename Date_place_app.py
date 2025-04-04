@@ -6,7 +6,7 @@ import time
 st.set_page_config(page_title="Date Recommender", page_icon="🍽️")
 
 # Google API Key
-GOOGLE_API_KEY = "AIzaSyB_hTKCkfWDcaXQvv6iiKAuPSlF1KM3pYM"
+GOOGLE_API_KEY = st.secrets["GOOGLE_API_KEY"]
 
 # Indian Cities
 INDIAN_CITIES = [
