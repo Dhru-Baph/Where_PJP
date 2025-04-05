@@ -106,7 +106,7 @@ with st.sidebar:
         "American", "Thai", "Mediterranean", "Continental", "French",
         "Middle Eastern", "Korean", "Greek", "Spanish", "Multi-Cuisine"
     ]
-)
+    )
 
 
     budget_option = st.selectbox(
