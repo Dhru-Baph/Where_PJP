@@ -99,7 +99,15 @@ st.markdown("Find the perfect restaurant for your next date 💕")
 with st.sidebar:
     st.header("🔍 Search Filters")
     location = st.selectbox("📍 Select City", INDIAN_CITIES)
-    cuisine = st.selectbox("🍴 Cuisine Type", ["Italian", "Mexican", "Indian", "Chinese", "Japanese"])
+    cuisine = st.selectbox(
+    "🍴 Cuisine Type", 
+    [
+        "Indian", "Italian", "Chinese", "Mexican", "Japanese",
+        "American", "Thai", "Mediterranean", "Continental", "French",
+        "Middle Eastern", "Korean", "Greek", "Spanish", "Multi-Cuisine"
+    ]
+)
+
 
     budget_option = st.selectbox(
         "💰 Budget per Person (Approx)",
