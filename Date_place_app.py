@@ -27,7 +27,7 @@ st.markdown(
             border-radius: 12px;
             padding: 16px;
             background-color: #8391a1;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.5);
             margin-bottom: 20px;
             height: 400px;
             overflow: hidden;
@@ -102,7 +102,7 @@ with st.sidebar:
     cuisine = st.selectbox(
     "🍴 Cuisine Type", 
     [
-        "Indian", "Italian", "Chinese", "Mexican", "Japanese",
+        "Indian", "Italian", "Punjabi", "Gujarati", "South Indian", "Chinese", "Mexican", "Japanese",
         "American", "Thai", "Mediterranean", "Continental", "French",
         "Middle Eastern", "Korean", "Greek", "Spanish", "Multi-Cuisine"
     ]
